@@ -30,3 +30,11 @@ def find_starting_time(now, input_type = "builtin", output_type = "builtin", FOR
         return(REF.strftime(FORMAT))
     else:
         return(REF)    
+
+    find_starting_time(datetime.datetime.now())
+
+# Test script
+#find_starting_time(datetime.datetime.now(), output_type = "string")
+#find_starting_time(datetime.datetime.now(), output_type = "string")
+#find_starting_time("2019-01-01 06:59:00", input_type = "string")
+#find_starting_time("2019-01-01 06:59:00", input_type = "string", output_type = "string")
